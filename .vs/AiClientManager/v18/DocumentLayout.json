@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\boufa\\OneDrive - Ministere de l\u0027Enseignement Superieur et de la Recherche Scientifique\\Bureau\\AiClientManagerSite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A97D0C8D-F597-4643-AC9A-D0F232089434}|src\\AiClientManager.Web\\AiClientManager.Web.csproj|c:\\users\\boufa\\onedrive - ministere de l\u0027enseignement superieur et de la recherche scientifique\\bureau\\aiclientmanagersite\\src\\aiclientmanager.web\\services\\aianalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97D0C8D-F597-4643-AC9A-D0F232089434}|src\\AiClientManager.Web\\AiClientManager.Web.csproj|solutionrelative:src\\aiclientmanager.web\\services\\aianalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AiAnalysisService.cs",
+              "DocumentMoniker": "C:\\Users\\boufa\\OneDrive - Ministere de l\u0027Enseignement Superieur et de la Recherche Scientifique\\Bureau\\AiClientManagerSite\\src\\AiClientManager.Web\\Services\\AiAnalysisService.cs",
+              "RelativeDocumentMoniker": "src\\AiClientManager.Web\\Services\\AiAnalysisService.cs",
+              "ToolTip": "C:\\Users\\boufa\\OneDrive - Ministere de l\u0027Enseignement Superieur et de la Recherche Scientifique\\Bureau\\AiClientManagerSite\\src\\AiClientManager.Web\\Services\\AiAnalysisService.cs",
+              "RelativeToolTip": "src\\AiClientManager.Web\\Services\\AiAnalysisService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwDUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T20:35:03.306Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

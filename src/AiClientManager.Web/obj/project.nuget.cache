@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "dVyf++vxu14=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\boufa\\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\\Bureau\\AiClientManagerSite\\src\\AiClientManager.Web\\AiClientManager.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\boufa\\.nuget\\packages\\aspnetcore.identity.mongodbcore\\7.0.0\\aspnetcore.identity.mongodbcore.7.0.0.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\documentformat.openxml\\3.4.1\\documentformat.openxml.3.4.1.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\documentformat.openxml.framework\\3.4.1\\documentformat.openxml.framework.3.4.1.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\mongodb.bson\\3.4.2\\mongodb.bson.3.4.2.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\mongodb.driver\\3.4.2\\mongodb.driver.3.4.2.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\mongodbgenericrepository\\2.0.0\\mongodbgenericrepository.2.0.0.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\pdfpig\\0.1.13\\pdfpig.0.1.13.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512",
+    "C:\\Users\\boufa\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
+  ],
+  "logs": []
+}
