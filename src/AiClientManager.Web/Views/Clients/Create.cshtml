@@ -1,0 +1,58 @@
+@model ClientEditVm
+@{
+    ViewData["Title"] = "Ajouter";
+}
+
+<h2>Ajouter un client</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data" class="mt-3">
+  <div class="row g-3">
+    <div class="col-md-6">
+      <label class="form-label">Nom</label>
+      <input asp-for="Name" class="form-control" />
+      <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Société</label>
+      <input asp-for="Company" class="form-control" />
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Email</label>
+      <input asp-for="Email" class="form-control" />
+      <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Téléphone</label>
+      <input asp-for="Phone" class="form-control" />
+    </div>
+
+    <div class="col-12">
+      <label class="form-label">Notes</label>
+      <textarea asp-for="Notes" class="form-control" rows="4"></textarea>
+    </div>
+
+    <div class="col-12">
+      <label class="form-label">Première interaction (optionnel)</label>
+      <textarea asp-for="NewInteraction" class="form-control" rows="2"></textarea>
+    </div>
+
+    <div class="col-12">
+      <label class="form-label">CV (txt/docx/pdf)</label>
+      <input asp-for="CvFile" type="file" class="form-control" />
+    </div>
+
+    <div class="col-12 form-check">
+      <input asp-for="AnalyzeNow" class="form-check-input" />
+      <label asp-for="AnalyzeNow" class="form-check-label">Analyser maintenant (IA/heuristique)</label>
+    </div>
+
+    <div class="col-12 d-flex gap-2">
+      <button class="btn btn-primary">Créer</button>
+      <a class="btn btn-outline-secondary" asp-action="Index">Annuler</a>
+    </div>
+  </div>
+</form>
+
+@section Scripts {
+  <partial name="_ValidationScriptsPartial" />
+}

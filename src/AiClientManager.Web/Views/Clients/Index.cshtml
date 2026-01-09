@@ -1,0 +1,61 @@
+@model List<ClientDocument>
+@{
+    ViewData["Title"] = "Clients";
+    string? q = ViewBag.Query as string;
+    ClientPriority? p = ViewBag.Priority as ClientPriority?;
+}
+
+<div class="d-flex align-items-center justify-content-between mb-3">
+  <h2 class="mb-0">Clients</h2>
+  <a class="btn btn-primary" asp-action="Create">+ Ajouter</a>
+</div>
+
+<form method="get" class="row g-2 mb-3">
+  <div class="col-md-8">
+    <input class="form-control" name="q" value="@q" placeholder="Rechercher par nom, société, mots-clés, notes..." />
+  </div>
+  <div class="col-md-3">
+    <select class="form-select" name="priority">
+      <option value="">Toutes priorités</option>
+      <option value="High" selected="@(p==ClientPriority.High)">High</option>
+      <option value="Medium" selected="@(p==ClientPriority.Medium)">Medium</option>
+      <option value="Low" selected="@(p==ClientPriority.Low)">Low</option>
+    </select>
+  </div>
+  <div class="col-md-1 d-grid">
+    <button class="btn btn-outline-secondary">OK</button>
+  </div>
+</form>
+
+<div class="table-responsive">
+<table class="table table-striped align-middle">
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Société</th>
+      <th>Email</th>
+      <th>Priorité</th>
+      <th>Mis à jour</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach (var c in Model)
+  {
+    var pr = c.Analysis?.Priority ?? ClientPriority.Unknown;
+    string badge = pr switch { ClientPriority.High => "bg-success", ClientPriority.Medium => "bg-warning text-dark", ClientPriority.Low => "bg-danger", _ => "bg-secondary" };
+    <tr>
+      <td>@c.Name</td>
+      <td>@c.Company</td>
+      <td>@c.Email</td>
+      <td><span class="badge @badge">@pr</span></td>
+      <td class="text-muted">@c.UpdatedAtUtc.ToLocalTime().ToString("yyyy-MM-dd HH:mm")</td>
+      <td class="text-end">
+        <a class="btn btn-sm btn-outline-primary" asp-action="Details" asp-route-id="@c.Id">Voir</a>
+        <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-id="@c.Id">Éditer</a>
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>
+</div>
